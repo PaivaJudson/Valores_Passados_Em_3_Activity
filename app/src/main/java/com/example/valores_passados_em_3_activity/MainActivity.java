@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, Tela2.class);
                 intent.putExtra("valor1", edt_valor1.getText().toString());
+                startActivity(intent);
             }
         });
     }
